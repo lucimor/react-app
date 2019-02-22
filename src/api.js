@@ -60,7 +60,7 @@ export function login(username, password) {
       if (username === 'username' && password === 'password') {
         resolve(FAKE_USER);
       } else {
-        reject({ message: 'ERROR SYSTEME' });
+        reject({ message: 'ERREURS SYSTEME' });
       }
     }, 300);
   });
