@@ -3,7 +3,7 @@ export const FAKE_USER = {
   lastName: 'Ceddia',
   username: 'dave',
   avatar:
-    'https://www.gravatar.com/avatar/5c3dd2d257ff0e14dbd2583485dbd44b?s=32'
+    'https://www.gravatar.com/avatar/14dbd2583485dbd44b?s=32'
 };
 
 export const FAKE_EMAILS = [
