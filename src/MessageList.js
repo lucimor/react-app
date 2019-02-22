@@ -9,7 +9,7 @@ const MessageList = () => (
         {({ loading, emails, onSelectEmail }) => (
           <div className="MessageList">
             {loading ? (
-              <div className="no-messages">Loading...</div>
+              <div className="no-messages">Loading for react...</div>
             ) : emails.length === 0 ? (
               <div className="no-messages">
                 Your mailbox is empty, {user.firstName}! 🎉

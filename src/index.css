@@ -33,38 +33,38 @@ LoginPage styles
 }
 .LoginPage form input {
   padding: 8px 6px;
-  border: 1px solid #aaa;
+  border: 1px solid rgb(212, 29, 29);
   border-radius: 2px;
 }
 .LoginPage form input:focus {
   outline: none;
-  border: 1px solid #3257ff;
+  border: 1px solid #f70000;
 }
 .LoginPage form button {
-  background: #3257ff;
-  color: #fff;
+  background: #f50404;
+  color: rgb(218, 198, 20);
   padding: 10px;
   border: none;
   border-radius: 3px;
-  box-shadow: 0 1px 2px #3257ff;
+  box-shadow: 0 1px 2px #fa0000;
   transition: box-shadow, background-color 0.12s;
   outline: none;
 }
 .LoginPage form button:hover {
-  background-color: #1431b9;
+  background-color: #f80f0f;
   cursor: pointer;
 }
 .LoginPage form button[disabled] {
   opacity: 0.4;
 }
 .LoginPage form button:focus {
-  box-shadow: 0 1px 8px #3257ff;
+  box-shadow: 0 1px 8px #ff1a09;
 }
 .LoginPage form button:active {
   transform: scale(0.98);
 }
 .LoginPage .error {
-  background: #ffebee;
+  background: #be1212;
   color: #c62828;
   padding: 5px;
   font-size: 16px;
@@ -98,13 +98,13 @@ main {
 
 /* Header styles */
 .Header {
-  border-bottom: 1px solid #9eb2fb;
+  border-bottom: 1px solid #f50b0b;
 }
 .Header h2 {
   margin: 0;
   font-weight: 600;
   font-size: 20px;
-  color: #44b;
+  color: rgb(221, 61, 21);
 }
 .UserAvatar {
   border-radius: 50%;
@@ -116,7 +116,7 @@ main {
 }
 .MessageList .no-messages {
   text-align: center;
-  color: #999;
+  color: rgb(250, 16, 16);
   margin-top: 40px;
 }
 .MessageList ul {
@@ -131,11 +131,11 @@ main {
   user-select: none;
 }
 .MessageList li:hover {
-  background: #f5f5f5;
+  background: #db1313;
 }
 .MessageList li:active {
   transition: background 0.3s;
-  background: #ebefff;
+  background: #f50808;
 }
 .MessageList li .subject {
   font-weight: 400;
@@ -158,7 +158,7 @@ main {
   background: none;
   border: none;
   cursor: pointer;
-  color: #1a1ae8;
+  color: #f51313;
   text-decoration: underline;
   float: right;
   font-size: 15px;
@@ -178,7 +178,7 @@ main {
   right: 5px;
   margin: 0;
   padding: 5px 0;
-  background-color: #fff;
+  background-color: rgb(238, 41, 15);
   border-radius: 2px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -188,5 +188,5 @@ main {
   padding: 3px 20px;
 }
 .UserMenu li:hover {
-  background-color: #e3eafd;
+  background-color: #ec1a1a;
 }
