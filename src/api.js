@@ -46,6 +46,18 @@ export const FAKE_EMAILS = [
     subject: 'Syst Admin',
     body:
       'granted access'
+  },
+  {
+    id: 6,
+    subject: 'Permission Ex',
+    body:
+      'groupe add * "Lucien"'
+  },
+  {
+    id: 7,
+    subject: '=====',
+    body:
+      'g-admin /var/www/'
   }
 ];
 
