@@ -10,7 +10,7 @@ export const FAKE_EMAILS = [
   {
     id: 0,
     subject: 'NSA - Working',
-    body: 'Introduction - NSA : warning to talent.. Enjoy j apprend le reac trop drôle '
+    body: 'Introduction - NSA : warning to talent.. Enjoy j apprend le react trop drôle '
   },
   {
     id: 1,
