@@ -44,7 +44,7 @@ class UserMenu extends React.Component {
             />
             {this.state.menuVisible && (
               <ul>
-                <li onClick={onLogout}>Logout</li>
+                <li onClick={onLogout}>Disconnect</li>
               </ul>
             )}
           </div>
