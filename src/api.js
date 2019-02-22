@@ -57,10 +57,10 @@ FAKE_EMAILS.forEach(
 export function login(username, password) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      if (username === 'dave' && password === 'secret') {
+      if (username === 'username' && password === 'password') {
         resolve(FAKE_USER);
       } else {
-        reject({ message: 'Invalid username or password' });
+        reject({ message: 'ERROR SYSTEME' });
       }
     }, 300);
   });

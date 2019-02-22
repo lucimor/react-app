@@ -54,7 +54,7 @@ class LoginPage extends React.Component {
               </label>
               {error && <div className="error">{error.message}</div>}
               <button type="submit" disabled={loading}>
-                Sign In
+              Login
               </button>
             </form>
           </div>
