@@ -3,7 +3,7 @@ import UserMenu from './UserMenu';
 
 const Header = () => (
   <header className="Header">
-    <h2>MyMail</h2>
+    <h2>@MyMail</h2>
     <UserMenu />
   </header>
 );

@@ -55,7 +55,7 @@ export const FAKE_EMAILS = [
   },
   {
     id: 7,
-    subject: '=====',
+    subject: '====',
     body:
       'g-admin /var/www/'
   }
