@@ -67,6 +67,7 @@ FAKE_EMAILS.forEach(
 );
 
 export function login(username, password) {
+  console.log("tested by API " + login)
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       if (username === 'username' && password === 'password') {
